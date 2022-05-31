@@ -7,6 +7,8 @@ name = "pypi"
 fastai = "==2.5.3"
 streamlit = "*"
 plotly = "*"
+pandas = "*"
+streamlit-option-menu = "*"
 
 [dev-packages]
 
