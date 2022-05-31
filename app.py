@@ -6,9 +6,14 @@ import pathlib
 temp = pathlib.PosixPath
 
 # title
-st.title("Transportni klassifikatsiya qiluvchi model")
+st.title("Carnivores, Fruits, Transports Classification Model")
+st.text(
+    "Transportts: [Car Boat Airplane Rocket Helicopter] "
+    "Carnivores: [Raccoon Otter Dog Lion Tiger Red_panda Lynx Jaguar Bear Fox Cat] "
+    "Fruits: [Apple Grape Common_fig Pear Strawberry Tomato Lemon Banana Orange Peach Mango Pineapple Grapefruit Pomegranate Watermelon Cantaloupe]"
+)
 # rasm yuklash
-file_img = st.file_uploader("Rasm yuklash", type=['png', 'jpg', 'jpeg', 'gif', 'svg'])
+file_img = st.file_uploader("Image upload", type=['png', 'jpg', 'jpeg', 'gif', 'svg'])
 if file_img:
     st.image(file_img)
     # PIL convert
@@ -17,8 +22,8 @@ if file_img:
     model = load_learner('AI_Image_Model.pkl')
     # predict
     pred, pred_id, probs=model.predict(img)
-    st.success(f"Bashorat: {pred}")
-    st.info(f"Ehtimollik: {probs[pred_id]*100:.1f}%")
+    st.success(f"Predict: {pred}")
+    st.info(f"Probability: {probs[pred_id]*100:.1f}%")
     # plotting
     fig = px.bar(x=probs*100, y=model.dls.vocab)
     st.plotly_chart(fig)
