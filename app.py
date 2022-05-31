@@ -6,7 +6,7 @@ import pathlib
 temp = pathlib.PosixPath
 
 # title
-st.latex('''**Carnivores, Fruits, Transports<>Classification Model**''')
+st.latex('''**Carnivores, Fruits, Transports^Classification Model**''')
 st.subheader("You can upload the following images: ")
 st.text("TRANSPORTS: Car Boat Airplane Rocket Helicopter \n\nCARNIVORES: Raccoon Otter Dog Lion Tiger Red_panda Lynx Jaguar Bear Fox Cat \n\nFRUITS: Apple Grape Common_fig Pear Strawberry Tomato Lemon Banana Orange Peach \n        Mango Pineapple Grapefruit Pomegranate Watermelon Cantaloupe")
 
