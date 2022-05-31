@@ -8,8 +8,8 @@ temp = pathlib.PosixPath
 # title
 st.title("Carnivores, Fruits, Transports Classification Model")
 st.text(
-    "Transportts: [Car Boat Airplane Rocket Helicopter] ",
-    "Carnivores: [Raccoon Otter Dog Lion Tiger Red_panda Lynx Jaguar Bear Fox Cat] ",
+    "Transportts: [Car Boat Airplane Rocket Helicopter] "
+    "Carnivores: [Raccoon Otter Dog Lion Tiger Red_panda Lynx Jaguar Bear Fox Cat] "
     "Fruits: [Apple Grape Common_fig Pear Strawberry Tomato Lemon Banana Orange Peach Mango Pineapple Grapefruit Pomegranate Watermelon Cantaloupe]"
 )
 # rasm yuklash
