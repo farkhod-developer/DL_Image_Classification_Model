@@ -14,7 +14,7 @@ if file_img:
     # PIL convert
     img = PILImage.create(file_img)
     # model
-    model = load_learner('trans_model.pkl')
+    model = load_learner('AI_Image_Model.pkl')
     # predict
     pred, pred_id, probs=model.predict(img)
     st.success(f"Bashorat: {pred}")
