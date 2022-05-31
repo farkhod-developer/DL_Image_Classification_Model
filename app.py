@@ -23,5 +23,5 @@ if file_img:
     st.success(f"Predict: {pred}")
     st.info(f"Probability: {probs[pred_id]*100:.1f}%")
     # plotting
-    fig = px.bar(x=probs*100, y=model.dls.vocab, width=780, height=700)
+    fig = px.bar(x=probs*100, y=model.dls.vocab, width=780, height=700, X_label="prediction name")
     st.plotly_chart(fig)
