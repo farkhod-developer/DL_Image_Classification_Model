@@ -8,7 +8,7 @@ temp = pathlib.PosixPath
 # title
 st.title("Carnivores, Fruits, Transports Classification Model")
 st.subheader("You can upload the following images: ")
-st.text("Transportts: Car Boat Airplane Rocket Helicopter \nCarnivores: Raccoon Otter Dog Lion Tiger Red_panda Lynx Jaguar Bear Fox Cat \nFruits: Apple Grape Common_fig Pear Strawberry Tomato Lemon Banana Orange Peach Mango Pineapple Grapefruit Pomegranate Watermelon Cantaloupe")
+st.text("Transportts: Car Boat Airplane Rocket Helicopter \nCarnivores: Raccoon Otter Dog Lion Tiger Red_panda Lynx Jaguar Bear Fox Cat \nFruits: Apple Grape Common_fig Pear Strawberry Tomato Lemon Banana Orange Peach \n          Mango Pineapple Grapefruit Pomegranate Watermelon Cantaloupe")
 
 # rasm yuklash
 file_img = st.file_uploader("Image upload", type=['png', 'jpg', 'jpeg', 'gif', 'svg'])
