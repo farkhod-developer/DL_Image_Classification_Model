@@ -9,6 +9,7 @@ streamlit = "*"
 plotly = "*"
 pandas = "*"
 streamlit-option-menu = "*"
+streamlit-lottie = "*"
 
 [dev-packages]
 
