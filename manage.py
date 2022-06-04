@@ -38,7 +38,7 @@ with st.sidebar:
         """
         Github: \n\nhttps://github.com/farkhod-developer
         \nTelegram: \nhttps://t.me/Farkhod_Developerr
-        \nEmail: \nhttps://farhodand92@gmail.com
+        \nEmail:   \nhttps://farhodand92@gmail.com
         
         ©️ 2022 Farkhod Khojikurbonov
     """
