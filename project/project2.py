@@ -21,6 +21,6 @@ def app_func():
         quality="medium", # medium ; high
         # renderer="None", # canvas
         height=350,
-        width=900,
+        width=700,
         key=None,
 )
