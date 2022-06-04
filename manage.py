@@ -36,7 +36,7 @@ with st.sidebar:
     st.image("image/farkhod.jpg", width=150)
     st.sidebar.info(
         """
-        Github: \n\nhttps://github.com/farkhod-developer
+        Github: \nhttps://github.com/farkhod-developer
         \nTelegram: \nhttps://t.me/Farkhod_Developerr
         \nEmail:   \nhttps://farhodand92@gmail.com
         
