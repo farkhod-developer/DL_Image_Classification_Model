@@ -20,7 +20,7 @@ def app_func():
         loop=True,
         quality="medium", # medium ; high
         # renderer="None", # canvas
-        height=450,
-        width=800,
+        height=430,
+        width=700,
         key=None,
 )
