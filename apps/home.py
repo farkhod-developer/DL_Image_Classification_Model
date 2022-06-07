@@ -21,7 +21,7 @@ def app_func():
     lottie_hello = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_FYx0Ph.json")
 
 
-    st.subheader("Hi 👋, my name is Farhod")
+    st.subheader("Hi, my name is Farhod")
     st.header("I am a future Data Science and AI engineer")
     st_lottie(
         lottie_hello,
