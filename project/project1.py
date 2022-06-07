@@ -11,8 +11,8 @@ def app_func():
 
     lottie_hello = load_lottieurl("https://assets4.lottiefiles.com/private_files/lf30_b91uuvwz.json")
 
-    st.subheader("We apologize for the inconvenience 🙃")
-    st.header("we will try to add more projects soon 🙂")
+    st.subheader("We apologize for the inconvenience :)")
+    st.header("we will try to add more projects soon :)")
     st_lottie(
         lottie_hello,
         speed=1.5,
