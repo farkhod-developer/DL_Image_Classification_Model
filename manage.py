@@ -10,7 +10,8 @@ temp = pathlib.PosixPath
 with st.sidebar:
             navbar = option_menu("Main Menu", ["Home", "Project",  "Contact"],
                 icons=['house', 'code-slash', "person-lines-fill"],
-                menu_icon="cast", default_index=1,
+                menu_icon="cast", 
+                default_index=0,
                 styles={
                     "container": {"padding": "0!important", "background-color": "#0AAAB3"},
                     "icon": {"color": "orange", "font-size": "25px"},
